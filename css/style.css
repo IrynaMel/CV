@@ -72,6 +72,13 @@ a{
 }
 .project-link-head{
     font-weight: bold;
+    text-decoration: underline;
+
+}
+.project-link-item{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #595959;
 }
 .my-project-text{
     color: #595959;

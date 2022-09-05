@@ -216,15 +216,14 @@ a{
    
 }
 .contact-section-link:hover{
-   color: red
-
+   color: #9c0c0c;
 }
 .contact-image-box{
 width: 30px;
 height: 30px;
 flex-shrink: 0;
 border-radius: 50%;
-background-color: wheat;
+background-color: rgba(196,154,117,1);
 display: flex;
 justify-content: center;
 align-items: center;

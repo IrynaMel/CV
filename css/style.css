@@ -78,6 +78,7 @@ a{
 .projects-item{
     color: #000;
     font-weight: bold;
+    font-size: 16px;
 }
 .project-link-head{
     font-weight: bold;
@@ -88,7 +89,7 @@ a{
     text-decoration: underline;
     font-weight: bold;
     color: #595959;
-    transition: all .2s;
+    transition: all .2s ease-in-out;
 }
 .project-link-item:hover{
     color: #FB6D3A;
@@ -98,7 +99,7 @@ a{
     color: #595959;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 24px;
     margin-left: 5px;
 }
@@ -106,8 +107,9 @@ a{
     color: #595959;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 24px;
+    transition: all .2s ease-in-out;
 
 }
 .project-link:hover{
@@ -173,9 +175,7 @@ a{
 
 .sidebar-section{
     background: linear-gradient(180deg, rgba(62,90,171,1) 9%, rgba(171,148,65,1) 18%, rgba(196,154,117,1) 36%);
-    /* background-color:rgba(0,0,0,0.1);
-    /* opacity: 0.7; */
-     width: 370px;
+    width: 370px;
     padding: 40px 5px;
     
 }
@@ -201,6 +201,11 @@ a{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    
 }
 .skills-list{
     padding: 0px;
@@ -208,11 +213,31 @@ a{
 .skills-item{
     margin: 0;
     list-style-type: none;
+   
 }
 .contact-section-link:hover{
-    font-size: 15px;
+   color: red
 
 }
+.contact-image-box{
+width: 30px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 50%;
+background-color: wheat;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 5px;
+margin-bottom: 5px;
+padding: 2px;
+transition: all .2s ease-in-out;
+
+}
+.contact-image-box:hover{
+    transform: scale(1.2);
+}
+
 .skills-item-text{
     font-style: normal;
     font-weight: normal;
